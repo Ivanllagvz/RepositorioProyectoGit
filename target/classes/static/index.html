@@ -45,6 +45,20 @@
 	<script src="/js/Board.js"></script>
 	<script src="/js/app.js"></script>
 
+	<button onclick="Música()">Reproducir música</button>
+
+<audio id="Canción">
+  <source src="/target/classes/static/Hell_Bells.mp3" type="audio/mpeg">
+  Tu navegador no soporta el elemento de audio.
+</audio>
+
+<script>
+  function Música() {
+    var audio = document.getElementById("Canción");
+    audio.play();
+  }
+</script>
+
 </body>
 </html>
 
