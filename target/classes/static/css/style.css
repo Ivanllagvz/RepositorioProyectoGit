@@ -95,3 +95,18 @@ body {
 .scoreBoard span.active {
     border-bottom: 4px solid #F286A0;
 }
+
+#Cuenta_Atras {
+
+margin: 2% 0 0 5%; 
+padding: 20 px;
+display: inline-block;
+justify-content:left;
+border-width: 5px;
+border-style: solid;
+border-image: linear-gradient(to right, #9c27b0, #673ab7) 1;
+border-image-slice: 10;
+background-color: black;
+color: white;
+
+}
