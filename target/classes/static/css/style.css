@@ -132,6 +132,24 @@ body {
     color: white;
 }
 
+#Contador{
+
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    margin: 0;
+    padding: 5px;
+    display: inline-block;
+    justify-content: left;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #9c27b0, #673ab7) 1;
+    border-image-slice: 10;
+    background-color: black;
+    color: white;
+
+}
+
 #startBtn{
     background-color: #000000;
     border: #ffff;
