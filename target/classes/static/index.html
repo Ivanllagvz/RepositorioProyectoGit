@@ -10,6 +10,17 @@
 </head>
 <body>
 
+	<h2 id="Cuenta_Atras"></h2>
+
+	<div id="reloj"></div>
+
+	<audio src="musica.mp3"    >  
+		Tu navegador no soporta el elemento<code>audio</code>
+	</audio> 
+
+	<button id="botonaudio" class="botonaudio"><img src="./play.png" class="imgsonido" 
+		id="imgsonido" alt="silencio" width="30px" height="30px"></button>
+
 
 	<div class="container">
 		<div class="row">
@@ -26,13 +37,13 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3" id="joinForm">
-				<h1 class="text-center colorDark">Enter your name</h1>
+				<h1 class="text-center colorDark">Introduce tu nombre</h1>
 				<div class="panel panel-danger">
 					<div class="panel-body">
 						<div class="input-group">
 							<input class="form-control input-lg" id="nickname"
 								autofocus="autofocus" /><span class="input-group-btn">
-								<button class="btn btn-lg btn-danger" id="startBtn">PLAY!</button>
+								<button class="btn btn-lg btn-danger" id="startBtn">JUGAR!</button>
 							</span>
 						</div>
 					</div>
@@ -44,7 +55,12 @@
 
 	<script src="/js/Board.js"></script>
 	<script src="/js/app.js"></script>
+	<script src="/js/reloj.js"></script>
+	<script src="/js/Contador.js"></script>
+	<script src="/js/musica.js"></script>
+
 
 </body>
+
 </html>
 

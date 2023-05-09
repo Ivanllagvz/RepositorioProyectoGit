@@ -19,13 +19,15 @@
 }
 
 body {
-    background: #A5DAD2;
+
+    background-color:#000000;
     font-family: Quicksand, san-serif;
 }
 
 .bgWhite {
-    background: #d6159c;
+    background: linear-gradient(to right, #9c27b0, #673ab7);
 }
+
 
 .colorWhite {
     color: #F5F2F5 !important;
@@ -36,7 +38,7 @@ body {
 }
 
 .colorDark {
-    color: #516D66;
+    color: #ffff;
 }
 
 .bgRed {
@@ -78,7 +80,7 @@ body {
 }
 
 .scoreBoard {
-    color: #516D66;
+    color: white;
     height: 100px;
 }
 
@@ -94,4 +96,71 @@ body {
 
 .scoreBoard span.active {
     border-bottom: 4px solid #F286A0;
+}
+
+
+#reloj {
+    font-size: 2em; 
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    margin: 0;
+    padding: 20px;
+    display: inline-block;
+    justify-content: right;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #9c27b0, #673ab7) 1;
+    border-image-slice: 10;
+    background-color: black;
+    color: white;
+}
+
+#Cuenta_Atras {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    margin: 0;
+    padding: 20px;
+    display: inline-block;
+    justify-content: left;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #9c27b0, #673ab7) 1;
+    border-image-slice: 10;
+    background-color: black;
+    color: white;
+}
+
+#startBtn{
+    background-color: #000000;
+    border: #ffff;
+    border-radius: 2px;
+
+}
+
+.panel-danger {
+
+    border: #000000;
+    border-radius: 2px;
+    background-color:#9c27b0;
+
+
+}#botonaudio {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 39%;
+    left: 15%;
+    margin: 0;
+    border: #000000;
+    border-radius: 5px;
+  }
+
+.imgsonido{
+
+    width: 70px;
+    height: 70px;
+
 }
