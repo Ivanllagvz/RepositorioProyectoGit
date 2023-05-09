@@ -22,10 +22,14 @@ body {
 
     background: black;
 
+}
+
 
 .bgWhite {
 
     background-color:#9c27b0;
+
+}
 
 
 .colorWhite {
@@ -110,6 +114,8 @@ body {
     border-image-slice: 10;
     background-color: black;
     color: white;
+
+}
 
 #Cuenta_Atras {
 
