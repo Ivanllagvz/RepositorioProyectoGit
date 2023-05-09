@@ -101,8 +101,11 @@ body {
 
 #reloj {
     font-size: 2em; 
-    margin: 2% 0 0 100%; 
-    padding: 10px;
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    margin: 0;
+    padding: 20px;
     display: inline-block;
     justify-content: right;
     border-width: 5px;
@@ -111,22 +114,22 @@ body {
     border-image-slice: 10;
     background-color: black;
     color: white;
-
 }
 
 #Cuenta_Atras {
-
-margin: 2% 0 0 5%; 
-padding: 20 px;
-display: inline-block;
-justify-content:left;
-border-width: 5px;
-border-style: solid;
-border-image: linear-gradient(to right, #9c27b0, #673ab7) 1;
-border-image-slice: 10;
-background-color: black;
-color: white;
-
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    margin: 0;
+    padding: 20px;
+    display: inline-block;
+    justify-content: left;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #9c27b0, #673ab7) 1;
+    border-image-slice: 10;
+    background-color: black;
+    color: white;
 }
 
 #startBtn{
