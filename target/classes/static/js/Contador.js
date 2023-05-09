@@ -1,4 +1,4 @@
-const tiempoLimite = 1 * 60 * 1000;
+const tiempoLimite = 4 * 60 * 1000;
 
 const contador = document.getElementById('Cuenta_Atras');
 

@@ -4,11 +4,11 @@ var v = document.getElementsByTagName("audio")[0];
                 boton.addEventListener("click", function(){
             if (!sound) {
                 v.play();
-                document.getElementById("imgsonido").setAttribute('src', './play.png');
+                document.getElementById("imgsonido").setAttribute('src','./play.png');
                 sound = true;
             } else {
                 v.pause();
-                document.getElementById("imgsonido").setAttribute('src', './pause.png');
+                document.getElementById("imgsonido").setAttribute('src','./pause.png');
                 sound = false;
             }
             });
