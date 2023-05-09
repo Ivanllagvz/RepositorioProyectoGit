@@ -19,7 +19,7 @@
 }
 
 body {
-    background: #000000;
+    background: black;
     font-family: Quicksand, san-serif;
 }
 
@@ -112,16 +112,16 @@ color: white;
 }
 
 #startBtn{
-background-color: #000000;
-border: #ffff;
-border-radius: 2px;
+    background-color: #000000;
+    border: #ffff;
+    border-radius: 2px;
 
 }
 
 .panel-danger {
 
-border: #000000;
-border-radius: 2px;
-background-color:#9c27b0;
+    border: #000000;
+    border-radius: 2px;
+    background-color:#9c27b0;
 
 }
