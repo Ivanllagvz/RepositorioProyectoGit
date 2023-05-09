@@ -130,14 +130,14 @@ class Board {
     		looser = this.players[0].name;
     	}
     	
-    	alert(winner+" wins! "+looser+" looses.");
+    	alert(winner+"Has ganado jefe"+looser+"Has perdido master");
     	
     	this.disableAll();
         this.highlightCells(pos);
     }
 
     doDraw() {
-    	alert("Draw!");
+    	alert("Empate técnico");
         this.lowlightCells();
     }
 
