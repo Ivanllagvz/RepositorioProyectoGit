@@ -19,6 +19,7 @@
 }
 
 body {
+
     background-color:#000000;
     font-family: Quicksand, san-serif;
 }
@@ -26,6 +27,7 @@ body {
 .bgWhite {
     background: linear-gradient(to right, #9c27b0, #673ab7);
 }
+
 
 .colorWhite {
     color: #F5F2F5 !important;
@@ -96,6 +98,22 @@ body {
     border-bottom: 4px solid #F286A0;
 }
 
+
+#reloj {
+    font-size: 2em; 
+    margin: 2% 0 0 100%; 
+    padding: 10px;
+    display: inline-block;
+    justify-content: right;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #9c27b0, #673ab7) 1;
+    border-image-slice: 10;
+    background-color: black;
+    color: white;
+
+}
+
 #Cuenta_Atras {
 
 margin: 2% 0 0 5%; 
@@ -123,5 +141,6 @@ color: white;
     border: #000000;
     border-radius: 2px;
     background-color:#9c27b0;
+
 
 }
