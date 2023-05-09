@@ -19,6 +19,7 @@
 }
 
 body {
+
     background-color:#000000;
     font-family: Quicksand, san-serif;
 }
@@ -26,6 +27,7 @@ body {
 .bgWhite {
     background: linear-gradient(to right, #9c27b0, #673ab7);
 }
+
 
 .colorWhite {
     color: #F5F2F5 !important;
@@ -109,6 +111,8 @@ body {
     border-image-slice: 10;
     background-color: black;
     color: white;
+
+}
 
 #Cuenta_Atras {
 
