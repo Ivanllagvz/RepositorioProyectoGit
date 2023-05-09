@@ -19,13 +19,14 @@
 }
 
 body {
+
     background: black;
-    font-family: Quicksand, san-serif;
-}
+
 
 .bgWhite {
+
     background-color:#9c27b0;
-}
+
 
 .colorWhite {
     color: #F5F2F5 !important;
