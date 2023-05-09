@@ -19,13 +19,14 @@
 }
 
 body {
-    background: rgb(171, 228, 119);
-    font-family: Quicksand, san-serif;
-}
+
+    background: black;
+
 
 .bgWhite {
-    background: #d6159c;
-}
+
+    background-color:#9c27b0;
+
 
 .colorWhite {
     color: #F5F2F5 !important;
@@ -36,7 +37,7 @@ body {
 }
 
 .colorDark {
-    color: #516D66;
+    color: #ffff;
 }
 
 .bgRed {
@@ -78,7 +79,7 @@ body {
 }
 
 .scoreBoard {
-    color: #516D66;
+    color: white;
     height: 100px;
 }
 
@@ -108,5 +109,20 @@ border-image: linear-gradient(to right, #9c27b0, #673ab7) 1;
 border-image-slice: 10;
 background-color: black;
 color: white;
+
+}
+
+#startBtn{
+    background-color: #000000;
+    border: #ffff;
+    border-radius: 2px;
+
+}
+
+.panel-danger {
+
+    border: #000000;
+    border-radius: 2px;
+    background-color:#9c27b0;
 
 }
