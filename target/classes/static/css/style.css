@@ -19,13 +19,14 @@
 }
 
 body {
-    background: rgb(171, 228, 119);
-    font-family: Quicksand, san-serif;
-}
+
+    background: black;
+
 
 .bgWhite {
-    background: #F5F2F5;
-}
+
+    background-color:#9c27b0;
+
 
 .colorWhite {
     color: #F5F2F5 !important;
@@ -36,7 +37,7 @@ body {
 }
 
 .colorDark {
-    color: #516D66;
+    color: #ffff;
 }
 
 .bgRed {
@@ -78,7 +79,7 @@ body {
 }
 
 .scoreBoard {
-    color: #516D66;
+    color: white;
     height: 100px;
 }
 
@@ -96,6 +97,7 @@ body {
     border-bottom: 4px solid #F286A0;
 }
 
+
 #reloj {
     font-size: 2em; 
     margin: 2% 0 0 100%; 
@@ -108,4 +110,34 @@ body {
     border-image-slice: 10;
     background-color: black;
     color: white;
+
+#Cuenta_Atras {
+
+margin: 2% 0 0 5%; 
+padding: 20 px;
+display: inline-block;
+justify-content:left;
+border-width: 5px;
+border-style: solid;
+border-image: linear-gradient(to right, #9c27b0, #673ab7) 1;
+border-image-slice: 10;
+background-color: black;
+color: white;
+
+}
+
+#startBtn{
+    background-color: #000000;
+    border: #ffff;
+    border-radius: 2px;
+
+}
+
+.panel-danger {
+
+    border: #000000;
+    border-radius: 2px;
+    background-color:#9c27b0;
+
+
 }
