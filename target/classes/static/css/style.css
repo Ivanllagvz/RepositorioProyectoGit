@@ -20,15 +20,12 @@
 
 body {
 
-    background: black;
-
+    background-color:#000000;
+    font-family: Quicksand, san-serif;
 }
 
-
 .bgWhite {
-
-    background-color:#9c27b0;
-
+    background: linear-gradient(to right, #9c27b0, #673ab7);
 }
 
 
