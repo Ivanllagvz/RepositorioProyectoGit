@@ -1,8 +1,11 @@
-const tiempoLimite = 2 * 60 * 1000;
-
-const contador = document.getElementById('Cuenta_Atras');
+let tiempoLimite = 4 * 60 * 1000;
 
 function iniciarCuentaAtras() {
+
+  tiempoLimite = document.getElementById('tiempoLimite').value * 60 * 1000;
+
+  const contador = document.getElementById('Cuenta_Atras');
+
   const fechaLimite = new Date().getTime() + tiempoLimite;
 
   const intervalo = setInterval(() => {
@@ -16,7 +19,7 @@ function iniciarCuentaAtras() {
     const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
 
     contador.textContent = `Tiempo restante: ${minutos}:${segundos.toString().padStart(2, '0')}`;
-
+  
     if (diferencia < 0) {
 
       clearInterval(intervalo);
@@ -30,7 +33,7 @@ function iniciarCuentaAtras() {
       } else if (resultado === 'no') {
 
         location.reload();
-
+        
       }
     }
   }, 1000);
